@@ -7,4 +7,4 @@ ADD . /app
 RUN pip install -r /app/requirements.txt
 WORKDIR "/app"
 
-CMD ["python", "./main.py"]
+CMD ["python", "./main.py", "--interval", "1600"]
